@@ -1,2 +1,4 @@
 # Compile file
-`$ lualatex --shell-escape apuntes.tex`
+```bash
+lualatex --shell-escape apuntes.tex
+```
