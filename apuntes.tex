@@ -1,0 +1,31 @@
+\documentclass[letter, 9pt]{article}
+\usepackage{fontspec}
+\usepackage[margin=0.3in]{geometry}
+\usepackage{amsmath}
+\usepackage{minted}
+\usepackage{xcolor} 
+\usepackage{colortbl}
+
+% Font
+\setmonofont{JetBrainsMonoNL Nerd Font}[
+  ItalicFont={},
+  BoldItalicFont={},
+  Scale=1.0] 
+
+\definecolor{LightGray}{gray}{0.95}
+\usemintedstyle[cpp]{lovelace}
+\setminted[cpp]{
+  breaklines=true,
+  fontsize=\footnotesize,
+}
+
+\begin{document}
+  \input{resources/page-1.tex}
+  \input{resources/page-2.tex}
+  \input{resources/page-3.tex}
+  \input{resources/page-4.tex}
+  \input{resources/page-5.tex}
+  \input{resources/page-6.tex}
+  \input{resources/page-7.tex}
+  \input{resources/page-8.tex}
+\end{document}
